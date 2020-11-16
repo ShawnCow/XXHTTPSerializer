@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2991D02522360A9C0066ACE7 /* XXHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991D02422360A9C0066ACE7 /* XXHTTPRequest.m */; };
+		2991D02B223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991D02A223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.m */; };
+		2991D031223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991D030223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.m */; };
+		2991D034223646150066ACE7 /* XXHTTPRequestPostFormSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991D033223646150066ACE7 /* XXHTTPRequestPostFormSerializer.m */; };
+		2991D03A223649550066ACE7 /* XXHTTPPostFormDataPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991D039223649550066ACE7 /* XXHTTPPostFormDataPart.m */; };
+		2991D03D223750940066ACE7 /* XXHTTPResponseJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2991D03C223750940066ACE7 /* XXHTTPResponseJSONSerializer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2991D015223609020066ACE7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2991D017223609020066ACE7 /* libXXHTTPSerializer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXXHTTPSerializer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2991D02322360A9C0066ACE7 /* XXHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPRequest.h; sourceTree = "<group>"; };
+		2991D02422360A9C0066ACE7 /* XXHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXHTTPRequest.m; sourceTree = "<group>"; };
+		2991D0262236124C0066ACE7 /* XXHTTPSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPSerializer.h; sourceTree = "<group>"; };
+		2991D029223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPRequestJSONSerializer.h; sourceTree = "<group>"; };
+		2991D02A223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXHTTPRequestJSONSerializer.m; sourceTree = "<group>"; };
+		2991D02F223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPRequestURLEncodingSerializer.h; sourceTree = "<group>"; };
+		2991D030223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXHTTPRequestURLEncodingSerializer.m; sourceTree = "<group>"; };
+		2991D032223646150066ACE7 /* XXHTTPRequestPostFormSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPRequestPostFormSerializer.h; sourceTree = "<group>"; };
+		2991D033223646150066ACE7 /* XXHTTPRequestPostFormSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXHTTPRequestPostFormSerializer.m; sourceTree = "<group>"; };
+		2991D038223649550066ACE7 /* XXHTTPPostFormDataPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPPostFormDataPart.h; sourceTree = "<group>"; };
+		2991D039223649550066ACE7 /* XXHTTPPostFormDataPart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXHTTPPostFormDataPart.m; sourceTree = "<group>"; };
+		2991D03B223750940066ACE7 /* XXHTTPResponseJSONSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXHTTPResponseJSONSerializer.h; sourceTree = "<group>"; };
+		2991D03C223750940066ACE7 /* XXHTTPResponseJSONSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXHTTPResponseJSONSerializer.m; sourceTree = "<group>"; };
+		2991D03E223754390066ACE7 /* XXJSONToModelWrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXJSONToModelWrap.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2991D014223609020066ACE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2991D00E223609010066ACE7 = {
+			isa = PBXGroup;
+			children = (
+				2991D019223609020066ACE7 /* XXHTTPSerializer */,
+				2991D018223609020066ACE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2991D018223609020066ACE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2991D017223609020066ACE7 /* libXXHTTPSerializer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2991D019223609020066ACE7 /* XXHTTPSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				2991D0262236124C0066ACE7 /* XXHTTPSerializer.h */,
+				2991D03E223754390066ACE7 /* XXJSONToModelWrap.h */,
+				2991D02322360A9C0066ACE7 /* XXHTTPRequest.h */,
+				2991D02422360A9C0066ACE7 /* XXHTTPRequest.m */,
+				2991D02F223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.h */,
+				2991D030223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.m */,
+				2991D029223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.h */,
+				2991D02A223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.m */,
+				2991D032223646150066ACE7 /* XXHTTPRequestPostFormSerializer.h */,
+				2991D033223646150066ACE7 /* XXHTTPRequestPostFormSerializer.m */,
+				2991D038223649550066ACE7 /* XXHTTPPostFormDataPart.h */,
+				2991D039223649550066ACE7 /* XXHTTPPostFormDataPart.m */,
+				2991D03B223750940066ACE7 /* XXHTTPResponseJSONSerializer.h */,
+				2991D03C223750940066ACE7 /* XXHTTPResponseJSONSerializer.m */,
+			);
+			path = XXHTTPSerializer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2991D016223609020066ACE7 /* XXHTTPSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2991D020223609020066ACE7 /* Build configuration list for PBXNativeTarget "XXHTTPSerializer" */;
+			buildPhases = (
+				2991D013223609020066ACE7 /* Sources */,
+				2991D014223609020066ACE7 /* Frameworks */,
+				2991D015223609020066ACE7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XXHTTPSerializer;
+			productName = XXHTTPSerializer;
+			productReference = 2991D017223609020066ACE7 /* libXXHTTPSerializer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2991D00F223609010066ACE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shawn;
+				TargetAttributes = {
+					2991D016223609020066ACE7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2991D012223609010066ACE7 /* Build configuration list for PBXProject "XXHTTPSerializer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2991D00E223609010066ACE7;
+			productRefGroup = 2991D018223609020066ACE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2991D016223609020066ACE7 /* XXHTTPSerializer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2991D013223609020066ACE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2991D03D223750940066ACE7 /* XXHTTPResponseJSONSerializer.m in Sources */,
+				2991D02522360A9C0066ACE7 /* XXHTTPRequest.m in Sources */,
+				2991D02B223635CB0066ACE7 /* XXHTTPRequestJSONSerializer.m in Sources */,
+				2991D031223640680066ACE7 /* XXHTTPRequestURLEncodingSerializer.m in Sources */,
+				2991D03A223649550066ACE7 /* XXHTTPPostFormDataPart.m in Sources */,
+				2991D034223646150066ACE7 /* XXHTTPRequestPostFormSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2991D01E223609020066ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2991D01F223609020066ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2991D021223609020066ACE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XXHTTPRequestManager/XXHTTPRequestManager\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2991D022223609020066ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../XXHTTPRequestManager/XXHTTPRequestManager\"";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2991D012223609010066ACE7 /* Build configuration list for PBXProject "XXHTTPSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2991D01E223609020066ACE7 /* Debug */,
+				2991D01F223609020066ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2991D020223609020066ACE7 /* Build configuration list for PBXNativeTarget "XXHTTPSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2991D021223609020066ACE7 /* Debug */,
+				2991D022223609020066ACE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2991D00F223609010066ACE7 /* Project object */;
+}
