@@ -127,8 +127,12 @@
             }else
             {
                 id<XXJSONToModelWrap> model = [class new];
-                [model xx_mergeJSONDictionary:tempOb];
-                [tempArray addObject:model];
+                if (model && [model respondsToSelector:@selector(xx_mergeJSONDictionary:)]) {
+                    [model xx_mergeJSONDictionary:tempOb];
+                    [tempArray addObject:model];
+                }else{
+                    [tempArray addObject:tempOb];
+                }
             }
         }else if ([tempOb isKindOfClass:[NSString class]] || [tempOb isKindOfClass:[NSNumber class]])
         {
